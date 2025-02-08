@@ -1,0 +1,110 @@
+.complete {
+  width: 45%;
+  margin: 0 auto;
+  padding: 30px 30px 30px 30px;
+  box-shadow: 0 0 10px rgb(241, 241, 236);
+  border-radius: 30px;
+  background-color: white;
+}
+
+.header_image {
+  width: 1145px;
+  border-radius: 15px;
+}
+
+.header_sect_1 {
+  font-family: "Young Serif";
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(25, 25, 26);
+}
+
+.content_container_1 {
+  margin-top: 30px;
+  padding: 20px 30px 20px 30px;
+  background-color: rgb(255, 247, 255);
+  border-radius: 20px;
+}
+
+.content_container_1 p {
+  margin-bottom: 10px;
+}
+
+.header_sect_2 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: purple;
+}
+
+.span_tickness {
+  font-weight: bold;
+}
+
+.dot {
+  margin-right: 15px;
+}
+
+.content_container_2 {
+  margin-top: 30px;
+}
+
+.header_sect_3 {
+  font-weight: bold;
+  font-family: "Young Serif";
+  color: rgb(128, 68, 0);
+  margin-bottom: 15px;
+}
+
+.content_container_2 p {
+  margin-bottom: 10px;
+}
+
+.divider {
+  border: 0.5px solid rgb(243, 243, 243);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.content_container_3 p {
+  margin-bottom: 10px
+}
+
+.instruction_info {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  margin-bottom: 10px;
+}
+
+.span_tickness_1 {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.instruction_text {
+  font-family: Outfit;
+}
+
+.nutrition_info {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 40px;
+}
+
+.calories,
+.digits {
+  font-family: outfit;
+}
+
+.digits {
+  font-weight: bold;
+  color: rgb(128, 68, 0);
+}
+
+.divider_nutrition {
+  border: 0.5px solid rgb(243, 243, 243);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

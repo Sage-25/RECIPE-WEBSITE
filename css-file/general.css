@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(250, 244, 232);
+  color: rgb(79, 79, 83);
+  padding-top: 30px;
+}
+
+/* This is a media quary for the padding at the top of the complete body tag on recipe-page*/
+
+@media (max-width: 500px) {
+  body {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 550px) and (min-width: 3000px) {
+  body {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 3000px) {
+  body {
+    padding-top: 0;
+  }
+}
+
+/*This code at the bottom * {} helps close the padding at the top and the sides that comes with VS CODE*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/* and it ends here*/
+
+p {
+  font-family: Outfit, "Young Serif", serif;
+  margin: 0;
+}
